@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REACT PIZZA</title>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--MAIN PAGE-->
+    <header class="container">
+        <div class="logo">
+            <img src="./assets/icon.png" alt="Логотип">
+            <h3>REACT PIZZA</h3>
+            <p>самая вкусная пицца во вселенной</p>
+        </div>
+            <button class="cart_btn">
+            <div class="total_price">
+                    <p class="price">0</p>
+                    <p class="val">KZT</p>
+            </div>
+                <div class="line"> </div>
+                <div class="total_count">
+                    <img src="./assets/cart.svg" alt="Корзина">
+                    <p class="count">0</p>
+                </div>
+            </button>
+        </div>
+    </header>
+    <main class="container">
+        <div class="select_menu">
+            <nav>
+                <ul>
+                    <li class="active"><a href="#">Все</a></li>
+                    <li><a href="#">Мясные</a></li>
+                    <li><a href="#">Вегетарианская</a></li>
+                    <li><a href="#">Гриль</a></li>
+                    <li><a href="#">Острые</a></li>
+                    <li><a href="#">Закрытые</a></li>
+                </ul>
+            </nav>
+            <div class="sort_menu">
+                <label for="sort-select"><img src="./assets/sort_up.png" alt="Выбор">Сортировать по:</label>
+                <select id="sort-select">
+                    <option value="default">популярности</option>
+                    <option value="price-asc">по цене</option>
+                    <option value="price-desc">по алфавиту</option>
+                </select>
+            </div>
+        </div>
+        <span id="all_pizzas"><h1>Все пиццы</h1></span>
+        <div class="pizzas">
+            <div class="pizza_1">
+                <img src="./assets/pizza_1.png" alt="Чизбургер-пицца">
+                <h3>Чизбургер-пицца</h3>
+                <h5>тонкое</h5>
+                <h5>традиционное</h5>
+                <p>26 см.</p>
+                <p>30 см.</p>
+                <p>40 см.</p>
+                <h3>От 2100 KZT</h3>
+                <button class="btn" data-price="2100" data-name="Чизбургер-пицца">Добавить</button>
+            </div>
+            <div class="pizza_2">
+                <img src="./assets/pizza_1.png" alt="Сырная">
+                <h3>Сырная</h3>
+                <h5>тонкое</h5>
+                <h5>традиционное</h5>
+                <p>26 см.</p>
+                <br>
+                <br>
+                <h3>От 2500 KZT</h3>
+                <button class="btn" data-price="2500" data-name="Сырная">Добавить</button>
+            </div>
+            <div class="pizza_3">
+                <img src="./assets/pizza_1.png" alt="Креветки по-азиатски">
+                <h3>Креветки по-азиатски</h3>
+                <h5>тонкое</h5>
+                <p>30 см.</p>
+                <br>
+                <h3>От 1850 KZT</h3>
+                <button class="btn" data-price="1850" data-name="Креветки по-азиатски">Добавить</button>
+            </div>
+            <div class="pizza_4">
+                <img src="./assets/pizza_1.png" alt="Сырный цыпленок">
+                <h3>Сырный цыпленок</h3>
+                <h5>тонкое</h5>
+                <h5>традиционное</h5>
+                <p>26 см.</p>
+                <p>30 см.</p>
+                <p>40 см.</p>
+                <h3>От 2000 KZT</h3>
+                <button class="btn" data-price="2000" data-name="Сырный цыпленок">Добавить</button>
+            </div>
+            <div class="pizza_5">
+                <img src="./assets/pizza_1.png" alt="Сырный цыпленок">
+                <h3>Бургер-пицца</h3>
+                <h5>тонкое</h5>
+                <h5>традиционное</h5>
+                <p>26 см.</p>
+                <p>30 см.</p>
+                <p>40 см.</p>
+                <h3>От 2050 KZT</h3>
+                <button class="btn" data-price="2050" data-name="Бургер-пицца">Добавить</button>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
