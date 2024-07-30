@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REACT PIZZA | Корзина</title>
+        <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./cart.css">
+    </head>
+<body>
+    <header class="container">
+        <div class="logo">
+            <img src="./assets/icon.png" alt="Логотип">
+            <h3>REACT PIZZA</h3>
+            <p>Самая реактивная пицца</p>
+        </div>
+    </header>
+    <!--MAIN PAGE-->
+    <main class="container">
+        <span><h2><img src="./assets/cart2.svg" alt="Корзинка">Корзина: </h2></span>
+        <!--ITEMS-->
+        <div class="pizza_1">
+            <img src="./assets/pizza_4.png" alt="Сырный цыпленок">
+            <h3 id="name">Сырный цыпленок</h3>
+            <p>тонкое тесто, 26 см.</p>
+            <button class="minus">-</button>
+            <h4 class="quantity">1</h4>
+            <button class="plus">+</button>
+            <h2>2000 KZT</h2>
+        </div>
+        <div class="pizza_2">
+            <img src="./assets/pizza_3.png" alt="Креветки по-азиатски">
+            <h3 id="name">Креветки по-азиатски</h3>
+            <p>толстое тесто, 40 см.</p>
+            <button class="minus">-</button>
+            <h4 class="quantity">1</h4>
+            <button class="plus">+</button>
+            <h2>1850 KZT</h2>
+        </div>
+        <div class="pizza_3">
+            <img src="./assets/pizza_1.png" alt="Чизбургер-пицца">
+            <h3 id="name">Чизбургер-пицца</h3>
+            <p>тонкое тесто, 30 см.</p>
+            <button class="minus">-</button>
+            <h4 class="quantity">3</h4>
+            <button class="plus">+</button>
+            <h2>2100 KZT</h2>
+        </div>
+        <!--Payment-->
+        <h3 id="count">Всего пицц: <b>3 шт.</b></h3>
+        <h3 id="price">Сумма заказа: <b>12150 KZT</b></h3>
+        <a href="#" id="payment">Оплатить сейчас</a>
+    </main>
+    <script src="./cart.js"></script>
+</body>
+</html>
