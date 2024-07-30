@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1740px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header {
+    padding: 20px 0;
+}
+
+.logo img{
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    top: 90px;
+    left: 122px;
+}
+
+.logo h3 {
+    position: absolute;
+    top: 85px;
+    left: 165px;
+}
+
+.logo p {
+    position: absolute;
+    top: 110px;
+    left: 165px;
+}
+
+.cart_btn,
+.total_price,
+.total_count {
+    display: flex;
+    align-items: center;
+}
+
+.cart_btn {
+    padding: 0 20px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background: #FE5F1E;
+    border-radius: 50px;
+    position: absolute;
+    top: 95px;
+    left: 1450px;
+    color: white;
+    font-size: 24px;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.cart_btn:hover {
+    background: #FF7F4D;
+}
+
+.cart_btn img {
+    height: 30px;
+    width: 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.select_menu nav {
+    position: absolute;
+    top: 221px;
+    left: 112px;
+    float: left;
+}
+
+.select_menu nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.select_menu nav ul li {
+    margin-right: 20px;
+}
+
+.select_menu nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.select_menu nav ul li.active a {
+    background: black;
+    color: white;
+}
+
+.sort_menu {
+    position: absolute;
+    top: 221px;
+    left: 1300px;
+}
+
+.sort_menu label {
+    margin-right: 10px;
+}
+
+.sort_menu label img {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+select {
+    font-size: 20px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: dotted ;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 5px 10px; 
+    background-color: transparent; 
+    color:#a16b05; 
+}
+
+select option {
+    background-color: white;
+    color: black;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*PIZZA_types*/
+
+#all_pizzas h1 {
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 299px;
+    left: 112px;
+}
+
+.pizza_1 {
+    position: absolute;
+    top: 373px;
+    left: 112px;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pizza_1 img {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.pizza_1 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.pizza_1 h5 {
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.pizza_1 p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.pizza_1 h3:last-child {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #FE5F1E;
+}
+
+.pizza_1 .btn {
+    display: inline-block;
+    background-color: #FE5F1E;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.pizza_1 .btn:hover {
+    background-color: #FF7F4D;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.pizza_2 {
+    position: absolute;
+    top: 373px;
+    left: 427px;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pizza_2 img {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.pizza_2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.pizza_2 h5 {
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.pizza_2 p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.pizza_2 h3:last-child {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #FE5F1E;
+}
+
+.pizza_2 .btn {
+    display: inline-block;
+    background-color: #FE5F1E;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.pizza_2 .btn:hover {
+    background-color: #FF7F4D;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.pizza_3 {
+    position: absolute;
+    top: 373px;
+    left: 742px;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pizza_3 img {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.pizza_3 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.pizza_3 h5 {
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.pizza_3 p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.pizza_3 h3:last-child {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #FE5F1E;
+}
+
+.pizza_3 .btn {
+    display: inline-block;
+    background-color: #FE5F1E;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.pizza_3 .btn:hover {
+    background-color: #FF7F4D;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.pizza_4 {
+    position: absolute;
+    top: 373px;
+    left: 1057px;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pizza_4 img {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.pizza_4 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.pizza_4 h5 {
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.pizza_4 p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.pizza_4 h3:last-child {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #FE5F1E;
+}
+
+.pizza_4 .btn {
+    display: inline-block;
+    background-color: #FE5F1E;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.pizza_4 .btn:hover {
+    background-color: #FF7F4D;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.pizza_5 {
+    position: absolute;
+    top: 373px;
+    left: 1372px;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pizza_5 img {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.pizza_5 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.pizza_5 h5 {
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.pizza_5 p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.pizza_5 h3:last-child {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #FE5F1E;
+}
+
+.pizza_5 .btn {
+    display: inline-block;
+    background-color: #FE5F1E;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.pizza_5 .btn:hover {
+    background-color: #FF7F4D;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:active {
+    transform: scale(0.9); /* Slightly scale down on click */
+}
