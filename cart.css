@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1740px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header {
+    padding: 20px 0;
+}
+
+.logo img{
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    top: 90px;
+    left: 122px;
+}
+
+.logo h3 {
+    position: absolute;
+    top: 85px;
+    left: 165px;
+}
+
+.logo p {
+    position: absolute;
+    top: 110px;
+    left: 165px;
+}
+/*MAIN PAGE*/
+main span {
+    position: absolute;
+    top: 275px;
+    left: 350px;
+}
+
+main span h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+main span h2 img {
+    height: 30px;
+    width: 30px;
+}
+/*PIZZAS*/
+.pizza_1 img {
+    position: absolute;
+    top: 375px;
+    left: 350px;
+    height: 80px;
+    width: 80px;
+}
+
+.pizza_1 h3 {
+    position: absolute;
+    top: 389px;
+    left: 445px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pizza_1 p {
+    position: absolute;
+    top: 419px;
+    left: 445px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pizza_1 h4 {
+    position: absolute;
+    top: 402px;
+    left: 837px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pizza_1 button {
+    display: inline-block;
+    width: 32px; /* задаем ширину и высоту кнопки */
+    height: 32px;
+    border-radius: 50%; /* делаем кнопку круглой */
+    border: 1px solid #FE5F1E; /* убираем границу */
+    background-color: #ffffff; /* задаем цвет фона */
+    color: #FE5F1E; /* задаем цвет текста */
+    font-size: 32px; /* задаем размер шрифта */
+    text-align: center; /* выравниваем текст по центру */
+    line-height: 0px; /* выравниваем текст по вертикали */
+    cursor: pointer; /* меняем курсор при наведении */
+}
+
+.pizza_1 h2 {
+    position: absolute;
+    top: 402px;
+    left: 988px;
+}
+
+.pizza_1 .minus {
+    position: absolute;
+    top: 399px;
+    left: 793px;
+}
+
+.pizza_1 .plus {
+    position: absolute;
+    top: 399px;
+    left: 863px;
+}
+
+.pizza_2 img {
+    position: absolute;
+    top: 516px;
+    left: 350px;
+    height: 80px;
+    width: 80px;
+}
+
+.pizza_2 h3 {
+    position: absolute;
+    top: 530px;
+    left: 445px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pizza_2 p {
+    position: absolute;
+    top: 560px;
+    left: 445px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pizza_2 h4 {
+    position: absolute;
+    top: 543px;
+    left: 837px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pizza_2 button {
+    display: inline-block;
+    width: 32px; /* задаем ширину и высоту кнопки */
+    height: 32px;
+    border-radius: 50%; /* делаем кнопку круглой */
+    border: 1px solid #FE5F1E; /* убираем границу */
+    background-color: #ffffff; /* задаем цвет фона */
+    color: #FE5F1E; /* задаем цвет текста */
+    font-size: 32px; /* задаем размер шрифта */
+    text-align: center; /* выравниваем текст по центру */
+    line-height: 0px; /* выравниваем текст по вертикали */
+    cursor: pointer; /* меняем курсор при наведении */
+}
+
+.pizza_2 h2 {
+    position: absolute;
+    top: 543px;
+    left: 988px;
+}
+
+.pizza_2 .minus {
+    position: absolute;
+    top: 540px;
+    left: 793px;
+}
+
+.pizza_2 .plus {
+    position: absolute;
+    top: 540px;
+    left: 863px;
+}
+
+.pizza_3 img {
+    position: absolute;
+    top: 657px;
+    left: 350px;
+    height: 80px;
+    width: 80px;
+}
+
+.pizza_3 h3 {
+    position: absolute;
+    top: 671px;
+    left: 445px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pizza_3 p {
+    position: absolute;
+    top: 701px;
+    left: 445px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pizza_3 h4 {
+    position: absolute;
+    top: 684px;
+    left: 837px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pizza_3 button {
+    display: inline-block;
+    width: 32px; /* задаем ширину и высоту кнопки */
+    height: 32px;
+    border-radius: 50%; /* делаем кнопку круглой */
+    border: 1px solid #FE5F1E; /* убираем границу */
+    background-color: #ffffff; /* задаем цвет фона */
+    color: #FE5F1E; /* задаем цвет текста */
+    font-size: 32px; /* задаем размер шрифта */
+    text-align: center; /* выравниваем текст по центру */
+    line-height: 0px; /* выравниваем текст по вертикали */
+    cursor: pointer; /* меняем курсор при наведении */
+}
+
+.pizza_3 h2 {
+    position: absolute;
+    top: 684px;
+    left: 988px;
+}
+
+.pizza_3 .minus {
+    position: absolute;
+    top: 681px;
+    left: 793px;
+}
+
+.pizza_3 .plus {
+    position: absolute;
+    top: 681px;
+    left: 863px;
+}
+
+#count {
+    position: absolute;
+    top: 777px;
+    left: 351px;
+}
+
+#price {
+    position: absolute;
+    top: 777px;
+    left: 956px;
+}
+
+#price b {
+    color: #FE5F1E;
+}
+
+#payment {
+    color: white;
+    text-decoration: none;
+    background: #FE5F1E;
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 820px;
+    left: 960px;
+}
+
+button:active {
+    transform: scale(0.9); /* Slightly scale down on click */
+}
+
+#payment:active {
+    transform: scale(0.9); /* Уменьшение размера при активации */
+}
